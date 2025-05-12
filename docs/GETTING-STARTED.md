@@ -17,7 +17,7 @@ Velocity for Webex CC supports several widgets, or agent applications, for use w
 
 Allows you to select and approve calls to be dialed from an active campaign in Velocity.
 
-[Configure click to call](./features/CLICK_TO_CALL.md)
+[Configure click to call](./features/CLICK-TO-CALL.md)
 
 #### Callbacks
 
