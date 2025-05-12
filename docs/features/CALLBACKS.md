@@ -61,11 +61,11 @@ To add the widget, add the following to your desktop layout JSON file, in the `a
 },
 ```
 
-### Define Widget Properties
+#### Define Widget Properties
 
 Provide the appropriate values in the JSON above, using the following descriptions to guide you.
 
-#### Script
+##### Script
 
 The `script` to use for the widget depends on the environment used. For this value, use the URL that corresponds to your environment:
 
@@ -78,7 +78,7 @@ The `script` to use for the widget depends on the environment used. For this val
 > [!NOTE]
 > Unless otherwise specified for your tenant, use the production script.
 
-#### General Configuration
+##### General Configuration
 
 | Value            | Description                                                                                                                                                                                                                                                                                                                  |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -166,11 +166,11 @@ To add the widget, add the following to your desktop layout JSON file, in the `a
 },
 ```
 
-### Define Widget Properties
+#### Define Widget Properties
 
 Provide the appropriate values in the JSON above, using the following descriptions to guide you.
 
-#### Script
+##### Script
 
 The `script` to use for the widget depends on the environment used. For this value, use the URL that corresponds to your environment:
 
@@ -183,6 +183,6 @@ The `script` to use for the widget depends on the environment used. For this val
 > [!NOTE]
 > Unless otherwise specified for your tenant, use the production script.
 
-#### General Configuration
+##### General Configuration
 
 Use the same values for `velocityApiKey`, and `velocityAuth` as you did for the previous widget. Leave the `callbackCreate` value as `true` to indicate that this is the _Callback_ widget.
