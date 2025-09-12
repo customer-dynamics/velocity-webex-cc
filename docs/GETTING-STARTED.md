@@ -9,13 +9,21 @@ Before getting started with Velocity for Webex CC, please ensure the following:
 
 ## Setup
 
+### Configure Velocity Tenant
+
+### Campaigns
+
+Velocity campaigns allow you to create and manage outbound calling campaigns. Your agents will automatically receive calls to be dialed from an active campaign in Velocity.
+
+[Configure campaigns](./features/CAMPAIGNS.md)
+
 ### Configure Desktop Widgets
 
 Velocity for Webex CC supports several widgets, or agent applications, for use with Velocity. Each option requires a different configuration, so follow the instructions below for the options you plan to use before proceeding to the next section.
 
 #### Click To Call
 
-Allows you to select and approve calls to be dialed from an active campaign in Velocity.
+Allows an agent to select and approve their own calls to be dialed from an active campaign in Velocity.
 
 [Configure click to call](./features/CLICK-TO-CALL.md)
 
