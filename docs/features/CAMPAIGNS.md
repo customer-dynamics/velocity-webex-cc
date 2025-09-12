@@ -59,7 +59,6 @@ Set up an outdial queue. In the Contact Center area click on Queues in the left 
 | Name              | Use a recognizable name for the queue |
 | Queue Type        | Telephony                             |
 | Outbound Campaign | Yes                                   |
-| Row 4             | Value 4                               |
 
 3. Set Call Distribution
    1. Click "Create Group"
