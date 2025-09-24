@@ -81,7 +81,7 @@ The `script` to use for the widget depends on the environment used. For this val
 
 ### Add Headless Widget
 
-In order for calls to be correct dispositioned, you will also need to add a headless widget to the desktop layout. This widget will not be visible to agents, but is required for the Click2Call widget to function properly.
+In order for calls to be correctly dispositioned, you will also need to add a headless widget to the desktop layout. This widget will not be visible to agents, but is required for the Click2Call widget to function properly.
 
 Add the following to your desktop layout JSON file, in the `agent > area > headless` section:
 
