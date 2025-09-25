@@ -105,3 +105,12 @@ To run a Velocity campaign, an Outdial Entry point needs to be configured.
 
 12. Click "Save"
 13. Refresh the page
+
+### Connect to Webex Connect  
+1. Click the Overview in Control Hub - Top of Left Hand Nav
+2. Select Webex Connect from the Quick Link - Right Hand Side of Page
+3. Select the Service that contains the SMS channels
+4. Select API from the Top Tab List
+5. Select Service Key in the Auth Type drop-down - Top right-hand of the screen
+6. Copy the Service Key and place it in the Velocity Service Key Field
+7. Select the Webex Region. 
