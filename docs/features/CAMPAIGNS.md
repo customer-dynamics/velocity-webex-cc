@@ -12,11 +12,13 @@ Velocity communicates with the Webex CC Dialer through a Custom Connector. To se
 4. Click the “Set Up” button on the “Custom Connectors” tile
 5. Populate the pop up dialog with the following information:
 
-| Environment | Script URL                                            |
-| ----------- | ----------------------------------------------------- |
-| Development | `https://velocity-dev.cd-ccs.net/assets/c2c.js`       |
-| Staging     | `https://velocity-staging.cd-ccs.net/assets/c2c.js`   |
-| Production  | `https://velocity.customerdynamics.com/assets/c2c.js` |
+| Environment   | Script URL                                               |
+| -----------   | -------------------------------------------------------- |
+| Development   | `https://velocity-dev.cd-ccs.net/assets/c2c.js`          |
+| Staging       | `https://velocity-staging.cd-ccs.net/assets/c2c.js`      |
+| Production    | `https://velocity.customerdynamics.com/assets/c2c.js`    |
+| AU Production | `https://velocity.au.customerdynamics.com/assets/c2c.js` |
+| UK Production | `https://velocitycustomerdynamics.uk/assets/c2c.js`      |
 
 | Field               | Value                                           |
 | ------------------- | ----------------------------------------------- |
