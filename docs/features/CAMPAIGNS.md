@@ -36,7 +36,7 @@ Velocity communicates with the Webex CC Dialer through a Custom Connector. To se
 #### Prerequisites
 Import the RemoveAgentBody Function:
 
-1. Download the function [here] (../../functions/RemoveAgentBody.json)
+1. Download the function [here](../../flows/RemoveAgentBody.json)
 
 
 A specific outbound flow is required for Velocity campaigns. For ease of setup, it's recommended to import the [Velocity Outbound Flow](../../flows/VelocityOutdialFlow.json) directly using the following steps. If desired, you can instead reference the flow as you replicate it in an existing outdial flow.
