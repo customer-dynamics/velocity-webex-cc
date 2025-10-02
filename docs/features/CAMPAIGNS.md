@@ -45,6 +45,17 @@ Import the RemoveAgentBody Function:
 6. Click Next
 7. Click "Create Function"
 
+Create necessary global variables:
+1. Click "Flows" in the left navigation area
+2. Click the "Global Variables" tab at the top of the page
+3. Click "Create a global variable"
+4. Populate the Name field with removeAgentBody, the Variable type as String, leave the default value blank, Report Settings and Desktop Settings as deselected.
+5. Repeat steps 3 and 4 with the following settings: Name field campaignId, Description as "Velocity Variable", Variable type as String, leave the default value blank, Report Settings and Desktop Settings as deselected.
+6. Repeat steps 3 and 4 with the following settings: Name field segmentId, Description as "Velocity Variable", Variable type as String, leave the default value blank, Report Settings and Desktop Settings as deselected.
+7. Repeat steps 3 and 4 with the following settings: Name field contactId, Description as "Velocity Variable", Variable type as String, leave the default value blank, Report Settings and Desktop Settings as deselected.
+8. Repeat steps 3 and 4 with the following settings: Name field FirstName, Description as "Velocity Variable", Variable type as String, leave the default value blank, Report Settings deselected, and Desktop Settings as SELECTED.
+9. Repeat steps 3 and 4 with the following settings: Name field LastName, Description as "Velocity Variable", Variable type as String, leave the default value blank, Report Settings deselected, and Desktop Settings as SELECTED.
+
 
 
 To import the flow:
