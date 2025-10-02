@@ -48,10 +48,10 @@ Webex authenticates to Velocity for Rest API integration through this connector
 | Authentication Type | oAuth 2.0                                       |
 | Resource Domain     | https://api.velocity.customerdynamics.com       |
 | Grant type          | password                                        |
-| User Name           | Your Velocity User Name>                       |
-| Password            | Your Velocity Password>                        |
-| Client ID           | Your Velocity User Name>                       |
-| Client secret       | Your Velocity Password>                        |
+| User Name           | Your Velocity User Name                         |
+| Password            | Your Velocity Password                          |
+| Client ID           | Your Velocity User Name                         |
+| Client secret       | Your Velocity Password                          |
 | Token URL           | https://api.velocity.customerdynamics.com/login |
 | Scope               | (leave empty)                                   |
 
