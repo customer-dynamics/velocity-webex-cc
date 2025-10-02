@@ -4,15 +4,7 @@
 
 ### Configure Custom Connectors
 
-#### CampaignManagerCredential
-Velocity communicates with the Webex CC Dialer through this Custom Connector. To set up this connector:
-
-1. Open and login to [Webex Control Hub](https://admin.webex.com)
-2. Click “Contact Center” in the left navigation area
-3. Click “Integrations” in the left navigation area
-4. Click the “Set Up” button on the “Custom Connectors” tile
-5. Populate the pop up dialog with the following information:
-
+#### Environment Domains for connector configuration
 | Environment   | Script URL                                               |
 | -----------   | -------------------------------------------------------- |
 | Development   | `https://velocity-dev.cd-ccs.net/assets/c2c.js`          |
@@ -21,6 +13,14 @@ Velocity communicates with the Webex CC Dialer through this Custom Connector. To
 | AU Production | `https://velocity.au.customerdynamics.com/assets/c2c.js` |
 | UK Production | `https://velocitycustomerdynamics.uk/assets/c2c.js`      |
 
+#### CampaignManagerCredential Connector
+Velocity communicates with the Webex CC Dialer through this Custom Connector. To set up this connector:
+
+1. Open and login to [Webex Control Hub](https://admin.webex.com)
+2. Click “Contact Center” in the left navigation area
+3. Click “Integrations” in the left navigation area
+4. Click the “Add Connector” button on the “Custom Connectors” tile
+5. Populate the pop up dialog with the following information:
 | Field               | Value                                           |
 | ------------------- | ----------------------------------------------- |
 | Name                | CampaignManagerCredential                       |
@@ -29,8 +29,31 @@ Velocity communicates with the Webex CC Dialer through this Custom Connector. To
 | User Name           | <Your Velocity User Name>                       |
 | Password            | <Your Velocity Password>                        |
 | Validation URL      | (leave empty)                                   |
-
 6. Click "Done"
+
+#### Velocity API Conector
+Webex authenticates to Velocity for Rest API integration through this connector
+
+1. Open and login to [Webex Control Hub](https://admin.webex.com)
+2. Click “Contact Center” in the left navigation area
+3. Click “Integrations” in the left navigation area
+4. Click the “Add Connector” button on the “Custom Connectors” tile
+5. Populate the pop up dialog with the following information
+| Field               | Value                                           |
+| ------------------- | ----------------------------------------------- |
+| Name                | Velocity API                                    |
+| Authentication Type | oAuth 2.0                                       |
+| Resource Domain     | https://api.velocity.customerdynamics.com       |
+| Grant type          | password                                        |
+| User Name           | <Your Velocity User Name>                       |
+| Password            | <Your Velocity Password>                        |
+| Client ID           | <Your Velocity User Name>                       |
+| Client secret       | <Your Velocity Password>                        |
+| Token URL           | https://api.velocity.customerdynamics.com/login |
+| Scope               | (leave empty)                                   |
+6. Click "Done"
+
+
 
 
 ### Outdial Flow
