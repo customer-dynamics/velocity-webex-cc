@@ -2,9 +2,10 @@
 
 ## Setup
 
-### Configure Custom Connector
+### Configure Custom Connectors
 
-Velocity communicates with the Webex CC Dialer through a Custom Connector. To set up a custom connector:
+#### CampaignManagerCredential
+Velocity communicates with the Webex CC Dialer through this Custom Connector. To set up this connector:
 
 1. Open and login to [Webex Control Hub](https://admin.webex.com)
 2. Click “Contact Center” in the left navigation area
