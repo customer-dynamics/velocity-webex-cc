@@ -29,6 +29,7 @@ Velocity communicates with the Webex CC Dialer through this Custom Connector. To
 | User Name           | <Your Velocity User Name>                       |
 | Password            | <Your Velocity Password>                        |
 | Validation URL      | (leave empty)                                   |
+
 6. Click "Done"
 
 #### Velocity API Conector
@@ -51,6 +52,7 @@ Webex authenticates to Velocity for Rest API integration through this connector
 | Client secret       | <Your Velocity Password>                        |
 | Token URL           | https://api.velocity.customerdynamics.com/login |
 | Scope               | (leave empty)                                   |
+
 6. Click "Done"
 
 
