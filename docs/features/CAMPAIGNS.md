@@ -21,6 +21,7 @@ Velocity communicates with the Webex CC Dialer through this Custom Connector. To
 3. Click “Integrations” in the left navigation area
 4. Click the “Add Connector” button on the “Custom Connectors” tile
 5. Populate the pop up dialog with the following information:
+   
 | Field               | Value                                           |
 | ------------------- | ----------------------------------------------- |
 | Name                | CampaignManagerCredential                       |
@@ -40,6 +41,7 @@ Webex authenticates to Velocity for Rest API integration through this connector
 3. Click “Integrations” in the left navigation area
 4. Click the “Add Connector” button on the “Custom Connectors” tile
 5. Populate the pop up dialog with the following information
+   
 | Field               | Value                                           |
 | ------------------- | ----------------------------------------------- |
 | Name                | Velocity API                                    |
