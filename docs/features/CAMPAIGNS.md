@@ -56,10 +56,8 @@ Create necessary global variables:
 8. Repeat steps 3 and 4 with the following settings: Name field FirstName, Description as "Velocity Variable", Variable type as String, leave the default value blank, Report Settings deselected, and Desktop Settings as SELECTED.
 9. Repeat steps 3 and 4 with the following settings: Name field LastName, Description as "Velocity Variable", Variable type as String, leave the default value blank, Report Settings deselected, and Desktop Settings as SELECTED.
 
-
-
+#### Flow Import
 To import the flow:
-
 1. Download the flow [here](../../flows/VelocityOutdialFlow.json)
 2. Click "Flows" in the left navigation area
 3. Click "Manage Flows"
@@ -68,7 +66,7 @@ To import the flow:
 6. Click "Import"
 7. Select the "Go to Flow Designer" button to open the flow
 8. Toggle the edit button at the top of Flow Designer
-9. In the right hand properties panel, update the `VelocityApiKey` variable with your Velocity API Key
+9. In the right-hand properties panel, update the `VelocityApiKey` variable with your Velocity API Key
 10. Click the "Validation" toggle at the bottom
 11. Click the "Publish Flow" button
 
