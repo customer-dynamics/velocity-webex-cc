@@ -76,13 +76,16 @@ Import the RemoveAgentBody Function:
 Create necessary global variables:
 1. Click "Flows" in the left navigation area
 2. Click the "Global Variables" tab at the top of the page
-3. Click "Create a global variable"
-4. Populate the Name field with removeAgentBody, the Variable type as String, leave the default value blank, Report Settings and Desktop Settings as deselected.
-5. Repeat steps 3 and 4 with the following settings: Name field campaignId, Description as "Velocity Variable", Variable type as String, leave the default value blank, Report Settings and Desktop Settings as deselected.
-6. Repeat steps 3 and 4 with the following settings: Name field segmentId, Description as "Velocity Variable", Variable type as String, leave the default value blank, Report Settings and Desktop Settings as deselected.
-7. Repeat steps 3 and 4 with the following settings: Name field contactId, Description as "Velocity Variable", Variable type as String, leave the default value blank, Report Settings and Desktop Settings as deselected.
-8. Repeat steps 3 and 4 with the following settings: Name field FirstName, Description as "Velocity Variable", Variable type as String, leave the default value blank, Report Settings deselected, and Desktop Settings as SELECTED.
-9. Repeat steps 3 and 4 with the following settings: Name field LastName, Description as "Velocity Variable", Variable type as String, leave the default value blank, Report Settings deselected, and Desktop Settings as SELECTED.
+3. Click "Create a global variable" and repeat to create the global variables as defined below.
+   
+| Name            | Description       |Variable type  |Default Value  |Report settings  |Desktop settings   |
+|-----------------|-------------------|---------------|---------------|-----------------|-------------------|
+| FirstName       | Velocity Variable | String        | (leave empty) | (disabled)      | enabled           |
+| LastName        | Velocity Variable | String        | (leave empty) | (disabled)      | enabled           |      
+| removeAgentBody | Velocity Variable | String        | (leave empty) | (disabled)      | (disabled)        |
+| campaignId      | Velocity Variable | String        | (leave empty) | (disabled)      | (disabled)        |
+| segmentId       | Velocity Variable | String        | (leave empty) | (disabled)      | (disabled)        |
+| contactId       | Velocity Variable | String        | (leave empty) | (disabled)      | (disabled)        |
 
 #### Flow Import
 To import the flow:
