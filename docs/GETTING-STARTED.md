@@ -27,6 +27,12 @@ Allows an agent to select and approve their own calls to be dialed from an activ
 
 [Configure click to call](./features/CLICK-TO-CALL.md)
 
+#### Preview Dial
+
+Allows an agent to preview contact information before deciding to accept or reject a call from an active campaign in Velocity. Similar to Click To Call, but with more information provided to the agent.
+
+[Configure preview dial](./features/PREVIEW-DIAL.md)
+
 #### Callbacks
 
 Enables you to easily create and dial callbacks for contacts to be dialed back at a later time.
